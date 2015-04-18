@@ -1,16 +1,3 @@
--- --------------------------------------------------------
--- Hôte:                         127.0.0.1
--- Version du serveur:           5.6.15-log - MySQL Community Server (GPL)
--- Serveur OS:                   Win32
--- HeidiSQL Version:             8.1.0.4545
--- --------------------------------------------------------
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-
--- Export de la structure de table world6x. playercreateinfo_cast_spell
 CREATE TABLE IF NOT EXISTS `playercreateinfo_cast_spell` (
   `raceMask` int(10) unsigned NOT NULL DEFAULT '0',
   `classMask` int(10) unsigned NOT NULL DEFAULT '0',
@@ -18,7 +5,6 @@ CREATE TABLE IF NOT EXISTS `playercreateinfo_cast_spell` (
   `note` varchar(255) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Export de données de la table world6x.playercreateinfo_cast_spell: 15 rows
 /*!40000 ALTER TABLE `playercreateinfo_cast_spell` DISABLE KEYS */;
 REPLACE INTO `playercreateinfo_cast_spell` (`raceMask`, `classMask`, `spell`, `note`) VALUES
 	(0, 32, 48266, 'Death Knight - Blood Presence'),

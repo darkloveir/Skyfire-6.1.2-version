@@ -1,16 +1,4 @@
--- --------------------------------------------------------
--- Hôte:                         127.0.0.1
--- Version du serveur:           5.6.15-log - MySQL Community Server (GPL)
--- Serveur OS:                   Win32
--- HeidiSQL Version:             8.1.0.4545
--- --------------------------------------------------------
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-
--- Export de la structure de table world6x. creature_classlevelstats
 CREATE TABLE IF NOT EXISTS `creature_classlevelstats` (
   `level` tinyint(4) NOT NULL,
   `class` tinyint(4) NOT NULL,
@@ -28,7 +16,6 @@ CREATE TABLE IF NOT EXISTS `creature_classlevelstats` (
   PRIMARY KEY (`level`,`class`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Export de données de la table world6x.creature_classlevelstats: 420 rows
 /*!40000 ALTER TABLE `creature_classlevelstats` DISABLE KEYS */;
 REPLACE INTO `creature_classlevelstats` (`level`, `class`, `basemana`, `basearmor`, `attackpower`, `rangedattackpower`, `damage_base`, `damage_exp1`, `damage_exp2`, `damage_exp3`, `damage_exp4`, `damage_exp5`, `comment`) VALUES
 	(1, 1, 0, 15, 10, 1, 0.0607, 0, 0, 0, 0, 0, NULL),
