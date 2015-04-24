@@ -72,10 +72,4 @@ Read file [THANKS](THANKS.md)
 
 Read File [TO-DO] (TODO.md)
 
-## Links
-
-Forum [http://www.projectskyfire.org](http://www.projectskyfire.org)
-
-Database [http://www.projectskyfire.org/index.php?/files/](http://www.projectskyfire.org/index.php?/files/)
-
-Wiki [http://wiki.projectskyfire.org](http://wiki.projectskyfire.org)
+ProjectSkyfire not support this project !
